@@ -15,8 +15,8 @@ namespace $rootNamespace$.WebApi
                                      new {id = RouteParameter.Optional});
 
             /* Uncomment these lines to switch to JSON as the default WebApi response type */
-            //var appXmlType = config.Formatters.XmlFormatter.SupportedMediaTypes.FirstOrDefault(t => t.MediaType == "application/xml");
-            //config.Formatters.XmlFormatter.SupportedMediaTypes.Remove(appXmlType);
+            var appXmlType = config.Formatters.XmlFormatter.SupportedMediaTypes.FirstOrDefault(t => t.MediaType == "application/xml");
+            config.Formatters.XmlFormatter.SupportedMediaTypes.Remove(appXmlType);
         }
     }
 }

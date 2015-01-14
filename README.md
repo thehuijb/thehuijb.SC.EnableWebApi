@@ -1,12 +1,15 @@
-DEG.Shared.SC.EnableWebApi
-==========================
+Thehuijb.SC.EnableWebApi
+========================
+
+this is a fork of [DEG.Shared.SC.EnableWebApi](https://github.com/degdigital/DEG.Shared.SC.EnableWebApi), thanks to [Patrick Delancy](https://github.com/PatrickDelancy)
+only difference is that I removed the testcontroller cause I don't need it.
 
 This module applies the hooks necessary to enable custom WebApi controllers in a Sitecore project.
 
 # Registering Routes
 
 The default WebApi route is registered for you in the /WebApi/RegisterWebApiRoute.cs
-You can modify or add an custom routes here.
+You can modify or add any custom routes here.
 
 # Sitecore Pipeline Integration
 
