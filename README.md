@@ -23,5 +23,5 @@ Because the WebApi routes are detected near the middle of the httpRequestBegin p
 
 # Config Patching
 
-This module uses Sitecore Config patching to hook into the appropriate pipelines. All of this magic happens in /App_Config/Include/www.DEG.Shared.SC.EnableWebApi.config
+This module uses Sitecore Config patching to hook into the appropriate pipelines. All of this magic happens in /App_Config/Include/WebApi.Thehuijb.SC.Enable.config
 You are recommended NOT to modify this file.
