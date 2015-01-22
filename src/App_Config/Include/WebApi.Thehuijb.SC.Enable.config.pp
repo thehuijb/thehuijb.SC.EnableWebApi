@@ -1,11 +1,6 @@
 <configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
   <sitecore>
     <pipelines>
-      <httpRequestBegin>
-        <processor 
-          patch:after="processor[@type='Sitecore.Pipelines.HttpRequest.CustomHandlers, Sitecore.Kernel']" 
-          type="$rootNamespace$.WebApi.AbortSitecoreForKnownRoutes, $assemblyName$"/>
-      </httpRequestBegin>
       <initialize>
         <processor type="$rootNamespace$.WebApi.RegisterWebApiRoute, $assemblyName$"/>
       </initialize>
